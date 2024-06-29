@@ -1,4 +1,54 @@
 <LinearLayout
-    >
-
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:padding="40px"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    android:background="@drawable/backgroundd"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="NAME"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:id="@+id/nameid"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FRIEND NAME"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your friend name"
+        android:id="@+id/fnameid"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FRIEND NICKNAME"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your friend nickname"
+        android:id="@+id/fnicknameid"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DISCRIBE YOUR FRIEND"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Discribe your friend"
+        android:id="@+id/disid"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E73348"
+        android:layout_margin="40px"
+        android:text="SUBMIT"
+        android:textColor="@color/white"
+        android:id="@+id/subid"/>
 </LinearLayout>
